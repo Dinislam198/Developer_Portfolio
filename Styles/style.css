@@ -31,6 +31,7 @@
     padding: 18px 36px;
     font-size: 20px;
 
+
 }
 
 nav {
@@ -188,20 +189,76 @@ main {
     margin-top: 130px;
     margin-bottom: 113px;
 }
+
 /* Resume Part */
-.resume-content{
+.resume-content {
     display: flex;
     gap: 24px;
+    text-align: left;
 }
-.resume-title{
-    margin-bottom: 30px;
+
+.resume-title {
+    margin-bottom: 10px;
 }
-.resume-content{
+
+.resume-content {
+    text-align: left;
 
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 511px;
-height: 175px;
+    height: 175px;
+}
+
+.sub-title {
+    margin-bottom: 20px;
+    color: #757575;
+
+}
+
+.description {
+    color: #757575;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: left;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    padding: 150px 200px;
+    background: #ffc8a1;
+    border-radius: 10px;
+}
+
+.contact input,
+textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact input {
+    border: 0px;
+    height: 64px;
+}
+.para{
+    margin-bottom: 30px;
+}
+.contact a{
+    text-decoration: none;
+    justify-content: center;
 }
