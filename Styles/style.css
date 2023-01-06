@@ -239,9 +239,20 @@ main {
 .contact {
     display: flex;
     gap: 100px;
-    padding: 150px 200px;
+    padding: 150px 220px;
     background: #ffc8a1;
     border-radius: 10px;
+    
+}
+.btn-primary-cv{
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    border: 0;
+    padding: 18px 36px;
+    font-size: 20px;
+    margin-bottom: 100px;
 }
 
 .contact input,
